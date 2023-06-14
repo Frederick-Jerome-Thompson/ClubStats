@@ -53,6 +53,10 @@ if seasonOption != "All":
 
 
 #data
+games_played = team_pdf['Game'].count()
+st.write("Games: %s" % games_played)
+
+
 team_pdf['TSR_Shots'] = team_pdf.apply(lambda row : TSR(row['Shots'],
                      row['Shots.1']), axis = 1)
 
@@ -110,16 +114,45 @@ st.metric("TSR On Goal", round(total_pdf.loc["TSR_OG"],2))
 st.subheader("TSR for Expected Goal")
 st.metric("TSR XG", round(total_pdf.loc["TSR_XG"],2))
 
+#per game
+st.subheader('per Game Totals')
+mygrid2 = make_grid(2,7)
+
+mygrid2[0][0].subheader("Us")
+mygrid2[0][1].subheader("Them")
+mygrid2[1][0].metric("Goals",round(total_pdf.loc["Goals"]/games_played,1))
+mygrid2[1][1].metric("Goals Allowed",round(total_pdf.loc["Goals.1"]/games_played,1))
+mygrid2[1][0].metric("Shots",round(total_pdf.loc["Shots"]/games_played,1))
+mygrid2[1][1].metric("Shots Allowed",round(total_pdf.loc["Shots.1"]/games_played,1))
+mygrid2[1][0].metric("Shots On Goal",round(total_pdf.loc["On Goal"]/games_played,1))
+mygrid2[1][1].metric("Shots On Goal Allowed",round(total_pdf.loc["On Goal.1"]/games_played,1))
+mygrid2[1][0].metric("XG",round(total_pdf.loc["XG"]/games_played,2))
+mygrid2[1][1].metric("XG Allowed",round(total_pdf.loc["XG.1"]/games_played,2))
+
+
+
 #defensive Stats
 st.header("2022 Defensive Stats")
 
-st.metric("Saves", seasonDefensive.loc['Saves'])
-st.metric("Blocks", seasonDefensive.loc['Block'])
-st.metric("Interceptions", seasonDefensive.loc['Interception'])
-st.metric("Tackles", seasonDefensive.loc['Tackle'])
-st.metric("Steals", seasonDefensive.loc['Steal'])
-st.metric("Defensive Clears", seasonDefensive.loc['Clear Defensive'])
-st.metric("Sideline Clears", seasonDefensive.loc['Clear Side'])
+mygridD = make_grid(2,8)
+mygridD[0][0].subheader("Season")
+mygridD[0][1].subheader("per Game")
+
+mygridD[1][0].metric("Saves", seasonDefensive.loc['Saves'])
+mygridD[1][0].metric("Blocks", seasonDefensive.loc['Block'])
+mygridD[1][0].metric("Interceptions", seasonDefensive.loc['Interception'])
+mygridD[1][0].metric("Tackles", seasonDefensive.loc['Tackle'])
+mygridD[1][0].metric("Steals", seasonDefensive.loc['Steal'])
+mygridD[1][0].metric("Defensive Clears", seasonDefensive.loc['Clear Defensive'])
+mygridD[1][0].metric("Sideline Clears", seasonDefensive.loc['Clear Side'])
+
+mygridD[1][1].metric("Saves", seasonDefensive.loc['Saves']/games_played)
+mygridD[1][1].metric("Blocks", seasonDefensive.loc['Block']/games_played)
+mygridD[1][1].metric("Interceptions", seasonDefensive.loc['Interception']/games_played)
+mygridD[1][1].metric("Tackles", seasonDefensive.loc['Tackle']/games_played)
+mygridD[1][1].metric("Steals", seasonDefensive.loc['Steal']/games_played)
+mygridD[1][1].metric("Defensive Clears", seasonDefensive.loc['Clear Defensive']/games_played)
+mygridD[1][1].metric("Sideline Clears", seasonDefensive.loc['Clear Side']/games_played)
 
 
 
