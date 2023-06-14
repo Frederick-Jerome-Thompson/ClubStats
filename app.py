@@ -146,13 +146,13 @@ mygridD[1][0].metric("Steals", seasonDefensive.loc['Steal'])
 mygridD[1][0].metric("Defensive Clears", seasonDefensive.loc['Clear Defensive'])
 mygridD[1][0].metric("Sideline Clears", seasonDefensive.loc['Clear Side'])
 
-mygridD[1][1].metric("Saves", seasonDefensive.loc['Saves']/games_played)
-mygridD[1][1].metric("Blocks", seasonDefensive.loc['Block']/games_played)
-mygridD[1][1].metric("Interceptions", seasonDefensive.loc['Interception']/games_played)
-mygridD[1][1].metric("Tackles", seasonDefensive.loc['Tackle']/games_played)
-mygridD[1][1].metric("Steals", seasonDefensive.loc['Steal']/games_played)
-mygridD[1][1].metric("Defensive Clears", seasonDefensive.loc['Clear Defensive']/games_played)
-mygridD[1][1].metric("Sideline Clears", seasonDefensive.loc['Clear Side']/games_played)
+mygridD[1][1].metric("Saves", round(seasonDefensive.loc['Saves']/games_played,1))
+mygridD[1][1].metric("Blocks", round(seasonDefensive.loc['Block']/games_played,1))
+mygridD[1][1].metric("Interceptions", round(seasonDefensive.loc['Interception']/games_played,1))
+mygridD[1][1].metric("Tackles", round(seasonDefensive.loc['Tackle']/games_played,1))
+mygridD[1][1].metric("Steals", round(seasonDefensive.loc['Steal']/games_played,1))
+mygridD[1][1].metric("Defensive Clears", round(seasonDefensive.loc['Clear Defensive']/games_played,1))
+mygridD[1][1].metric("Sideline Clears", round(seasonDefensive.loc['Clear Side']/games_played,1))
 
 
 
