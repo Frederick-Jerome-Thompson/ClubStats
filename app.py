@@ -32,7 +32,7 @@ indv_pdf = pd.read_csv('DCFC_2022_Fall_Winter_Individual.csv')
 st.header("DCFC 2022 Stats")
 st.subheader("Presented by the Statistics Commitee")
 st.subheader("Chair: Lynne")
-
+st.write('These statistics are limited by the ability of our volunteer statistical recorders.  The volunteers give their best efforts for accuracy, but errors can arise.')
 
 
 
@@ -133,6 +133,7 @@ mygrid2[1][1].metric("XG Allowed",round(total_pdf.loc["XG.1"]/games_played,2))
 
 #defensive Stats
 st.header("2022 Defensive Stats")
+st.write('These were difficult to define and monitor.  As such, they were not recorded for all games.')
 
 mygridD = make_grid(2,8)
 mygridD[0][0].subheader("Season")
