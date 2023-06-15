@@ -54,7 +54,12 @@ if seasonOption != "All":
 
 #data
 games_played = team_pdf['Game'].count()
-st.write("Games: %s" % games_played)
+wins = team_pdf[team_pdf['Goals'] > team_pdf['Goals.1']]['Game'].count()
+losses = team_pdf[team_pdf['Goals'] < team_pdf['Goals.1']]['Game'].count()
+draws = games_played - wins -losses
+st.write('games: %s wins: %s draws: %s losses: %s' % (games_played,wins,draws,losses))
+
+
 
 
 team_pdf['TSR_Shots'] = team_pdf.apply(lambda row : TSR(row['Shots'],
@@ -132,7 +137,7 @@ mygrid2[1][1].metric("XG Allowed",round(total_pdf.loc["XG.1"]/games_played,2))
 
 
 #defensive Stats
-st.header("2022 Defensive Stats")
+st.header("Defensive Stats")
 st.write('These were difficult to define and monitor.  As such, they were not recorded for all games.')
 
 mygridD = make_grid(2,8)
@@ -200,7 +205,7 @@ st.dataframe(team2)
 fig_GDvTSR, ax_GDvTSR = plt.subplots()
 
 st.header("Goal Difference vs TSR")
-st.subheader("-for each game, infamous Reds tournament in Red")
+st.subheader("-for each game (outliers: Reds tournament in Red)")
 GD = list(team_pdf['GoalDiff'].values)
 TSR = list(team_pdf['TSR_Shots'].values)
 colors = ['red' if 'Reds' in game else 'blue' for game in list(team_pdf['Game'])]
