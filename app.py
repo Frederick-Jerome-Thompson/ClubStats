@@ -21,8 +21,8 @@ def make_grid(cols,rows):
     return grid
 
 
-team_pdf = pd.read_csv('DCFC_2022_Fall_Winter.csv')
-indv_pdf = pd.read_csv('DCFC_2022_Fall_Winter_Individual.csv')
+team_pdf = pd.read_csv('DCFC_2022_All.csv')
+indv_pdf = pd.read_csv('DCFC_2022_All_Individual.csv')
 
 
 
