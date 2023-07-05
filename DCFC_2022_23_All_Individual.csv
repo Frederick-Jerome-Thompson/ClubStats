@@ -1,4 +1,4 @@
-Season,Name,Games /15,Mins,Shots,On Goal,Goals,Assists,Saves,Allow,Save %,Block,Int,Tackle,Steal,Clear Defensive,Clear Side,Clear Offensive,Off sides,Fouls,Y,R,Corners Taken,Corner Conversions,Free Kick Conversion,PK Saves,PK Goals,Header Goals,Free Kick Goals,XG
+Season,Name,Games /15,Mins,Shots,On Goal,Goals,Assists,Saves,Allow,Save %,Block,Interception,Tackle,Steal,Clear Defensive,Clear Side,Clear Offensive,Off sides,Fouls,Y,R,Corners Taken,Corner Conversions,Free Kick Conversion,PK Saves,PK Goals,Header Goals,Free Kick Goals,XG
 2023_Spring,,0,0,6,4,2,0,0,0,0,0,0,0,0,7,2,0,0,0,0,0,0,0,1,0,0,0,0,1.87
 2023_Spring,,0,0,58,39,13,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,4,1,1,0,2,1,0,13.84
 2023_Spring,,0,0,0,0,0,0,129,27,83.57%,0,0,0,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0
