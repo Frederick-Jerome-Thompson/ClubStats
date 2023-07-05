@@ -1,0 +1,37 @@
+Season,Game,Team,Goals,Shots,On Goal,Corners,Fouls,Yellow,Red,shooting %,XG,Team,Goals,Shots,On Goal,Corners,Fouls,Yellow,Red,shooting %,XG,,,
+2022_Winter,12/3 Plymouth Reign Green,1 DCFC South Oakland 10 Rouge,4,16,12,5,0,0,0,25.00%,5.11,Plymouth Reign,4,16,10,1,2,0,0,25.00%,4.03,,,
+2022_Winter,12/18 Mi Stars Lightning,DCFC Rouge,7,17,12,3,2,0,0,41.18%,6.25,Lightning,1,6,5,2,6,1,0,16.67%,0.44,,,
+2022_Winter,1/8 Royal Oak Green,DCFC Rouge,7,18,11,4,2,0,0,38.89%,1.46,Royal Oak,1,8,6,3,11,1,0,12.50%,1.37,,,
+2022_Winter,1/21 DCFC West,DCFC Rouge,4,23,14,7,1,0,0,17.39%,2.78,DCFC West,1,6,6,3,1,0,0,16.67%,1.84,,,
+2022_Winter,2/19 Wild Dogs W4-1,1 DCFC South Oakland 10 Rouge,4,14,11,2,3,1,0,28.57%,1.45,Wild Dogs,1,6,4,0,4,3,0,16.67%,1.04,,,
+2022_Winter,3/4 Star Revolution D1-1,1 DCFC South Oakland 10 Rouge,1,18,12,9,4,0,0,5.56%,2.37,Michigan Stars Revolution,1,18,10,2,5,0,0,5.56%,1.58,,,
+2022_Winter,3/5 Eastside D2-2,1 DCFC South Oakland 10 Rouge,2,12,5,6,3,0,0,16.67%,1.6,Eastside,2,7,7,5,7,0,0,28.57%,1.12,,,
+2022_Winter,3/11 Troy Ntls Red D0-0,1 DCFC South Oakland 10 Rouge,0,8,3,6,0,0,0,0.00%,2.57,Troy Nationals,0,12,9,2,2,0,0,0.00%,1.69,,,
+2022_Fall,TKO 8/21,DCFC,4,9,8,2,3,1,0,44.44%,0.23,TKO Premier SC,2,14,11,1,5,0,0,14.29%,0.94,,,
+2022_Fall_Reds,PASS FC 8/27 (Reds),DCFC,11,25,19,3,0,0,0,44.00%,4.66,PASS FC,0,1,0,0,2,0,0,0.00%,0.13,,,
+2022_Fall_Reds,Liverpool Mi Cent 8/27 (Reds),DCFC,2,17,12,7,4,1,0,11.76%,0.8,Liverpool FC IA Michigan Central,0,7,5,2,5,2,0,0.00%,4.08,,,
+2022_Fall_Reds,Sting 8/28 (Reds),DCFC,17,37,29,5,2,0,0,45.95%,7.01,DBSS Sting Blue,0,1,1,0,0,0,0,0.00%,0.97,,,
+2022_Fall_Reds,Union 8/28 (Reds),DCFC,5,38,29,7,2,0,0,13.16%,5.88,FC Union Black,0,2,1,0,3,0,0,0.00%,0.1,,,
+2022_Fall,Dearborn Jags 9/10 Redo,DCFC,5,17,11,2,5,0,0,29.41%,3.05,Dearborn Jaguars,1,12,9,4,6,0,0,8.33%,1.9,,,
+2022_Fall,Thudercats 9/24 Redo,DCFC,3,14,10,4,2,0,0,21.43%,2.46,Thundercats SC Orange (St. Clair),1,20,14,4,5,0,0,5.00%,2.42,,,
+2022_Fall,Royal Oak White 9/25/22 W4-0,DCFC,4,25,18,12,3,0,0,16.00%,1.72,Royal Oak White,0,2,2,0,0,0,0,0.00%,1.36,,,
+2022_Fall,Portage 10/9 W7-2,DCFC,7,22,16,9,2,0,0,31.82%,3.47,Portage,2,12,5,0,0,0,0,16.67%,0.83,,,
+2022_Fall,Storm 10/16 Redo W5-1,DCFC,5,21,14,3,7,1,0,23.81%,2.8,Sailor SC Storm (Muskegon),1,20,15,1,8,0,0,5.00%,3.26,,,
+2022_Fall,Stars 10/22 W3-1,DCFC,3,17,12,7,2,0,0,17.65%,3.6,Stars Elite Revolution (Washington),1,6,6,3,8,0,0,16.67%,0.21,,,
+2022_Fall,Liverpool IA Ann Arbor 10-29 W6-0,DCFC,6,16,13,5,6,1,0,37.50%,6.1,Liverpool IA (Ann Arbor),0,6,5,0,5,0,0,0.00%,0.15,,,
+2022_Fall,MPSA Crush 10/30 5-0,DCFC,5,22,18,6,2,0,0,22.73%,2.32,MPSA Crush (Ann Arbor),0,8,7,2,5,0,0,0.00%,0.69,,,
+2023_League,Kingdom,DCFC 2010 B Rouge,2,8,7,2,7,1,0,25.00%,1.62,Kingdom,3,15,11,7,2,0,0,20.00%,2.84,0.35,0.39,0.36
+2023_League/State Cup,Hartland Liverpool,DCFC 2010 B Rouge,0,10,5,6,2,0,0,0.00%,1.77,Hartland Liverpool,2,16,11,5,5,0,0,12.50%,3.03,0.38,0.31,0.37
+2023_State Cup,Troy Red Cup,DCFC 2010 B Rouge,2,13,6,5,8,0,0,15.38%,1.61,Troy Red Cup,1,12,6,3,1,0,0,8.33%,1.9,0.52,0.5,0.46
+2023_League,Cap City,DCFC 2010 B Rouge,4,16,15,1,3,0,0,25.00%,2.87,Cap City,3,23,14,0,9,0,0,13.04%,1.92,0.41,0.52,0.6
+2023_League,Carpathia,DCFC 2010 B Rouge,1,6,4,0,6,0,0,16.67%,0.26,Carpathia,0,21,14,3,7,0,0,0.00%,3.33,0.22,0.22,0.07
+2023_State Cup,Pato,DCFC 2010 B Rouge,1,7,4,0,0,0,0,14.29%,0.12,Pato,6,27,18,5,13,1,0,22.22%,2.7,0.21,0.18,0.04
+2023_League,Novi Jags,DCFC 2010 B Rouge,3,12,9,4,1,0,0,25.00%,3.34,Novi Jags,1,19,9,3,7,0,0,5.26%,2.01,0.39,0.5,0.62
+2023_League,West,DCFC 2010 B Rouge,6,15,10,1,3,0,0,40.00%,3.46,West,1,14,10,2,2,0,0,7.14%,1.08,0.52,0.5,0.76
+2023_Jr Irish,Fraser,DCFC 2010 B Rouge,0,16,13,0,2,0,0,0.00%,1.18,Fraser,3,13,10,2,9,0,0,23.08%,3.13,0.55,0.57,0.27
+2023_Jr Irish,Indy Echo,DCFC 2010 B Rouge,3,7,6,0,5,0,0,42.86%,1.63,Indy Echo,0,12,8,0,12,0,0,0.00%,1.51,0.37,0.43,0.52
+2023_Jr Irish,Evolution,DCFC 2010 B Rouge,1,11,7,1,1,0,0,9.09%,0.71,Evolution,0,19,10,14,11,3,0,0.00%,3.16,0.37,0.41,0.18
+2023_Jr Irish,Fraser Champ,DCFC 2010 B Rouge,1,8,7,1,2,0,0,12.50%,1.01,Fraser Champ,3,22,16,2,5,0,0,13.64%,2.53,0.27,0.3,0.29
+2023_League,NatlsCapital,DCFC 2010 B Rouge,3,15,11,1,0,0,0,20.00%,2.39,NatlsCapital,1,11,10,3,2,0,0,9.09%,2.02,0.58,0.52,0.54
+2023_League,Plymouth Reign,DCFC 2010 B Rouge,1,10,6,3,2,0,0,10.00%,2.15,Plymouth Reign,2,14,8,4,4,0,0,14.29%,2.26,0.42,0.43,0.49
+2023_League,Saline,DCFC 2010 B Rouge,2,13,9,1,2,0,0,15.38%,2.6,Saline,2,20,11,5,4,0,0,10.00%,2.29,0.39,0.45,0.53
